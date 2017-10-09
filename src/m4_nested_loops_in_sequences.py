@@ -3,19 +3,19 @@ This project demonstrates NESTED LOOPS (i.e., loops within loops)
 in the context of SEQUENCES OF SUB-SEQUENCES.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  October 2015.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
     """ Calls the other functions to test them. """
-    test_multiply_numbers()
-    test_sum_numbers()
-    test_print_characters()
-    test_print_characters_slanted()
+    run_test_multiply_numbers()
+    run_test_sum_numbers()
+    run_test_print_characters()
+    run_test_print_characters_slanted()
 
 
-def test_multiply_numbers():
+def run_test_multiply_numbers():
     """ Tests the   multiply_numbers   function. """
     # ------------------------------------------------------------------
     # We have supplied tests for you. No additional tests are required,
@@ -130,7 +130,7 @@ def multiply_numbers(sequence_of_lists):
     # ------------------------------------------------------------------
 
 
-def test_sum_numbers():
+def run_test_sum_numbers():
     """ Tests the    sum_numbers    function. """
     # ------------------------------------------------------------------
     # TODO: 3. Implement this TEST function.
@@ -171,7 +171,7 @@ def sum_numbers(seq_seq):
     # ------------------------------------------------------------------
 
 
-def test_print_characters():
+def run_test_print_characters():
     """ Tests the    print_characters    function. """
     # ------------------------------------------------------------------
     # We have supplied tests for you. No additional tests are required,
@@ -223,7 +223,7 @@ def print_characters(sequence_of_strings):
     # ------------------------------------------------------------------
 
 
-def test_print_characters_slanted():
+def run_test_print_characters_slanted():
     """ Tests the    print_characters_slanted    function. """
     # ------------------------------------------------------------------
     # We have supplied tests for you. No additional tests are required,

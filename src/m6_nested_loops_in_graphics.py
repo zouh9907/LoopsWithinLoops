@@ -3,7 +3,7 @@ This project demonstrates NESTED LOOPS (i.e., loops within loops)
 in the context of TWO-DIMENSIONAL GRAPHICS.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  October 2015.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
@@ -11,11 +11,11 @@ import rosegraphics as rg
 
 def main():
     """ Calls the other functions to demonstrate them. """
-    test_draw_L()
-    test_draw_wall_on_right()
+    run_test_draw_L()
+    run_test_draw_wall_on_right()
 
 
-def test_draw_L():
+def run_test_draw_L():
     """
     Demonstrates nested loops in a TWO-DIMENSIONAL GRAPHICS example.
     """
@@ -85,7 +85,7 @@ def draw_L(window, circle, r, c):
     # ------------------------------------------------------------------
 
 
-def test_draw_wall_on_right():
+def run_test_draw_wall_on_right():
     """ Tests the    draw_wall_on_right    function. """
     # Tests 1 and 2 are ALREADY DONE (here).
     window = rg.RoseWindow(550, 300, 'Wall on the right, Tests 1 and 2')

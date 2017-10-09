@@ -3,21 +3,21 @@ This project demonstrates NESTED LOOPS (i.e., loops within loops)
 in the context of PRINTING on the CONSOLE.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  October 2015.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
     """ Calls the other functions to test them. """
-    test_rectangle_of_stars()
-    test_triangle_of_stars()
-    test_decreasing_exclamation_marks()
-    test_alternating_brackets()
-    test_triangle_same_number_in_each_row()
-    test_triangle_all_numbers_in_each_row()
+    run_test_rectangle_of_stars()
+    run_test_triangle_of_stars()
+    run_test_decreasing_exclamation_marks()
+    run_test_alternating_brackets()
+    run_test_triangle_same_number_in_each_row()
+    run_test_triangle_all_numbers_in_each_row()
 
 
-def test_rectangle_of_stars():
+def run_test_rectangle_of_stars():
     """ Tests the    rectangle_of_stars    function. """
     print()
     print('--------------------------------------------')
@@ -63,7 +63,7 @@ def rectangle_of_stars(r, c):
     # ------------------------------------------------------------------
 
 
-def test_triangle_of_stars():
+def run_test_triangle_of_stars():
     """ Tests the    triangle_of_stars    function. """
     print()
     print('-------------------------------------------')
@@ -118,7 +118,7 @@ def triangle_of_stars(r):
     # ------------------------------------------------------------------
 
 
-def test_decreasing_exclamation_marks():
+def run_test_decreasing_exclamation_marks():
     """ Tests the    decreasing_exclamation_marks    function. """
     print()
     print('----------------------------------------------------------')
@@ -160,7 +160,7 @@ def decreasing_exclamation_marks(m, n):
     # ------------------------------------------------------------------
 
 
-def test_alternating_brackets():
+def run_test_alternating_brackets():
     """ Tests the    alternating_brackets    function. """
     print()
     print('----------------------------------------------------------')
@@ -202,7 +202,7 @@ def alternating_brackets(m, n):
     # ------------------------------------------------------------------
 
 
-def test_triangle_same_number_in_each_row():
+def run_test_triangle_same_number_in_each_row():
     """ Tests the    triangle_same_number_in_each_row    function. """
     print()
     print('----------------------------------------------------------')
@@ -245,7 +245,7 @@ def triangle_same_number_in_each_row(r):
     # ------------------------------------------------------------------
 
 
-def test_triangle_all_numbers_in_each_row():
+def run_test_triangle_all_numbers_in_each_row():
     """ Tests the    triangle_all_numbers_in_each_row    function. """
     print()
     print('----------------------------------------------------------')

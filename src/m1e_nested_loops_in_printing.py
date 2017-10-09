@@ -3,7 +3,7 @@ This project demonstrates NESTED LOOPS (i.e., loops within loops)
 in the context of PRINTING on the CONSOLE.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues, and many others before them.  October 2015.
+         their colleagues, and many others before them.
 """
 # ----------------------------------------------------------------------
 # Students: READ and RUN this program.  There is nothing else for you
