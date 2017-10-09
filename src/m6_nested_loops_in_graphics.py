@@ -125,6 +125,7 @@ def draw_wall_on_right(rectangle, n, window):
     #     The testing code is already written for you (above).
     # ------------------------------------------------------------------
 
+
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------

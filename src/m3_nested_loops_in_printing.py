@@ -287,6 +287,7 @@ def triangle_all_numbers_in_each_row(r):
     #   would defeat the goal of providing practice at loops within loops.
     # ------------------------------------------------------------------
 
+
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------

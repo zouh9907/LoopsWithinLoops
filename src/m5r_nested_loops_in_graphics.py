@@ -70,7 +70,7 @@ def nested_loops_in_graphics_example():
 #   AFTER you have watched the video, asking questions as needed,
 #   and you feel that you understand the TECHNIQUE it presents, THEN:
 #
-#     *** Change the TODO above to DONE. ***
+#     *** Change the TO DO above to DONE. ***
 # ----------------------------------------------------------------------
 
 
@@ -95,8 +95,8 @@ def rectangle_of_circles(window, circle, m, n):
 
     x = original_x
     y = original_y
-    for _ in range(n):  # Loop through the rows
-        for _ in range(m):  # Loop through the columns
+    for i in range(n):  # Loop through the rows
+        for j in range(m):  # Loop through the columns
             new_circle = rg.Circle(rg.Point(x, y), radius)
             new_circle.attach_to(window)
             window.render(0.1)
@@ -123,7 +123,7 @@ def rectangle_of_circles(window, circle, m, n):
 #   AFTER you have watched the video, asking questions as needed,
 #   and you feel that you understand the TECHNIQUE it presents, THEN:
 #
-#     *** Change the TODO above to DONE. ***
+#     *** Change the TO DO above to DONE. ***
 # ----------------------------------------------------------------------
 
 
@@ -139,7 +139,6 @@ def triangle_of_circles(window, circle, n):
     Preconditions:
       :type window: rg.RoseWindow
       :type circle: rg.Circle
-      :type m: int
       :type n: int
     and m is a small, positive integer.
     """
@@ -164,6 +163,7 @@ def triangle_of_circles(window, circle, n):
 
         y = y + 2 * radius  # Move y down, for the next row of circles
         x = original_x  # Reset x to the left-edge, for the next row
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.

@@ -152,7 +152,7 @@ def run_test_sum_numbers():
     answer = sum_numbers(([], [5], []))
     print('Expected and actual are:', expected, answer)
 
-    # TODO 3 (continued): Add your ADDITIONAL test(s) here:
+    # TO DO 3 (continued): Add your ADDITIONAL test(s) here:
 
 
 def sum_numbers(seq_seq):
@@ -277,6 +277,7 @@ def print_characters_slanted(sequence_of_strings):
     # ** HINT: ** Consider using string multiplication for the spaces
     #             and string addition to stitch the spaces to the character.
     # ------------------------------------------------------------------
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
